@@ -20,11 +20,11 @@ Our mission is to craft software that feels both intuitive and inspiring, whethe
 
 ## **Projects**
 
-### **Jasonaut (In Development)**
-JSON Manipulator for macOS platform.
+### **ConcordUI (In Development)**
+A cross-platform Swift user-interface framework for creating applications on Apple and Android platforms.
 
-### **Open Game Framework (In Development)**
-A cross-platform API for creating educational quizzes and trivia contests.
+### **AetherCircle (In Development)**
+A cross-platform framework for creating immersive applications for Apple Vision Pro and Meta Quest.
 
 ---
 
