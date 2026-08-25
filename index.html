@@ -72,11 +72,20 @@
       background: #111;
     }
 
+    .project-logo-link {
+      display: block;
+      flex: 0 0 96px;
+    }
+
     .project-logo {
+      display: block;
       width: 96px;
       height: 96px;
-      flex: 0 0 96px;
       object-fit: contain;
+    }
+
+    .project-title-link {
+      color: inherit;
     }
 
     .project-content h3 {
@@ -120,17 +129,20 @@
         gap: 1rem;
       }
 
+      .project-logo-link {
+        flex-basis: 72px;
+      }
+
       .project-logo {
         width: 72px;
         height: 72px;
-        flex-basis: 72px;
       }
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="zi-desktop.jpeg" alt="Zodiac Innovation logo banner" width="779" height="194">
+    <img src="zi-desktop.jpg?v=8fbd7500" alt="Zodiac Innovation logo banner" width="779" height="194">
   </header>
 
   <main>
@@ -149,16 +161,20 @@
     <section id="projects">
       <h2>Projects</h2>
       <div class="project">
-        <img class="project-logo" src="concordui-256.png" alt="ConcordUI logo" width="256" height="256">
+        <a class="project-logo-link" href="https://concordui.org" aria-label="Visit the ConcordUI website">
+          <img class="project-logo" src="concordui-256.png?v=9231dc1c" alt="ConcordUI logo" width="256" height="256">
+        </a>
         <div class="project-content">
-          <h3>ConcordUI (In Development)</h3>
+          <h3><a class="project-title-link" href="https://concordui.org">ConcordUI</a> (In Development)</h3>
           <p>A cross-platform Swift user-interface framework for creating applications on Apple and Android platforms.</p>
         </div>
       </div>
       <div class="project">
-        <img class="project-logo" src="AetherCirlce-256.png" alt="AetherCircle logo" width="256" height="256">
+        <a class="project-logo-link" href="https://aethercircle.org" aria-label="Visit the AetherCircle website">
+          <img class="project-logo" src="AetherCirlce-256.png?v=62700738" alt="AetherCircle logo" width="256" height="256">
+        </a>
         <div class="project-content">
-          <h3>AetherCircle (In Development)</h3>
+          <h3><a class="project-title-link" href="https://aethercircle.org">AetherCircle</a> (In Development)</h3>
           <p>A cross-platform framework for creating immersive applications for Apple Vision Pro and Meta Quest.</p>
         </div>
       </div>
