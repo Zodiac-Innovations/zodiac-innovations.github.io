@@ -1,4 +1,4 @@
-# ![Zodiac Innovation](zi-desktop.jpg)
+# [![Zodiac Innovation](zi-desktop.jpg)](https://zodiacinnovations.com)
 
 ---
 
@@ -20,11 +20,30 @@ Our mission is to craft software that feels both intuitive and inspiring, whethe
 
 ## **Projects**
 
-### **ConcordUI (In Development)**
-A cross-platform Swift user-interface framework for creating applications on Apple and Android platforms.
-
-### **AetherCircle (In Development)**
-A cross-platform framework for creating immersive applications for Apple Vision Pro and Meta Quest.
+<table>
+  <tr>
+    <td width="112">
+      <a href="https://concordui.org">
+        <img src="concordui-256.png" width="96" height="96" alt="ConcordUI logo">
+      </a>
+    </td>
+    <td>
+      <h3><a href="https://concordui.org">ConcordUI</a> (In Development)</h3>
+      <p>A cross-platform Swift user-interface framework for creating applications on Apple and Android platforms.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="112">
+      <a href="https://aethercircle.org">
+        <img src="AetherCirlce-256.png" width="96" height="96" alt="AetherCircle logo">
+      </a>
+    </td>
+    <td>
+      <h3><a href="https://aethercircle.org">AetherCircle</a> (In Development)</h3>
+      <p>A cross-platform framework for creating immersive applications for Apple Vision Pro and Meta Quest.</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -32,12 +51,12 @@ A cross-platform framework for creating immersive applications for Apple Vision 
 
 We’d love to hear from you.  
 For inquiries, collaborations, or press, reach out at:  
-📧 [zodiacinnovations@proton.me](mailto:zodiacinnovations@proton.me)
+📧 [info@zodiacinnovations.com](mailto:info@zodiacinnovations.com)
 
 Follow us for updates:  
 🔗 [LinkedIn](https://www.linkedin.com/company/zodiac-innovations)
 
 ---
 
-© 2025 **Zodiac Innovation** — All Rights Reserved.  
+© 2026 **Zodiac Innovation** — All Rights Reserved.  
 [Privacy Statement](zodiac-innovations-privacy-statment.txt)
