@@ -1,4 +1,4 @@
-# ![Zodiac Innovation](zi-desktop.jpeg)
+# ![Zodiac Innovation](zi-desktop.jpg)
 
 ---
 
