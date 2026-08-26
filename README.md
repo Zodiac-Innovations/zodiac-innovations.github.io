@@ -1,8 +1,8 @@
-# [![Zodiac Innovation](zi-desktop.jpg)](https://zodiacinnovations.com)
+# [![Zodiac Innovations](zi-desktop.jpg)](https://zodiacinnovations.com)
 
 ---
 
-# **Zodiac Innovation**
+# **Zodiac Innovations**
 
 We create imaginative software for **iPhone**, **Android**, **Quest**, and beyond.  
 Currently under development — new projects coming soon.
@@ -11,7 +11,7 @@ Currently under development — new projects coming soon.
 
 ## **About**
 
-**Zodiac Innovation** is an independent creative studio focused on building thoughtful, cross-platform apps.  
+**Zodiac Innovations** is an independent creative studio focused on building thoughtful, cross-platform apps.  
 Founded by **Steve Sheets**, the company is dedicated to blending technology and artistry — delivering engaging experiences across mobile and immersive environments.
 
 Our mission is to craft software that feels both intuitive and inspiring, whether on your phone, tablet, or in mixed reality.
@@ -58,5 +58,5 @@ Follow us for updates:
 
 ---
 
-© 2026 **Zodiac Innovation** — All Rights Reserved.  
+© 2026 **Zodiac Innovations** — All Rights Reserved.  
 [Privacy Statement](zodiac-innovations-privacy-statment.txt)
