@@ -1,0 +1,13 @@
+# AetherAtlas registry
+
+`atlasmaps.json` is a JSON object whose unique keys are registered atlas IDs and whose values are direct HTTP(S) URLs to `.aetheratlas` descriptors.
+
+`atlascreators/<registeredId>.html` lists a creator's registered maps. Map links target the descriptors directly.
+
+In an atlas descriptor, optional `details.Author.registeredId` identifies the registered creator. For Steve Sheets this is `magesteve`. Existing author information remains independent of registration.
+
+When adding or changing a registration, update the map registry and the corresponding creator page together.
+
+The public base URL is https://zodiacinnovations.com/registry/.
+
+`atlascreators.json` contains registered creators in a `Creators` array.
