@@ -1,0 +1,126 @@
+{
+  "url": "https://zodiacinnovations.com/aetheratlas/examples/dcmall/dcmall.aetheratlas",
+  "id": "magesteve.dcmall",
+  "version": "1.0.0",
+  "name": "Washington, DC — National Mall",
+  "details": {
+    "media": "photo",
+    "description": "A public-domain photo inspection tour of the National Mall, Washington Monument, Lincoln Memorial, and Jefferson Memorial. Includes one genuine spherical panorama and eleven ordinary photographs.",
+    "author": {
+      "creatorid": "magesteve",
+      "name": "Steve Sheets",
+      "email": "magesteve@mac.com",
+      "registeredid": "magesteve"
+    },
+    "initiallocation": "lincoln-interior-360",
+    "creationdate": "2026/11/01",
+    "lastrevision": "2026/11/02"
+  },
+  "formatversion": 1,
+  "maps": [
+    {
+      "image": "national-mall-map.jpg",
+      "pinstyle": "pin",
+      "pins": [],
+      "title": "National Mall Map"
+    }
+  ],
+  "locations": [
+    {
+      "id": "lincoln-interior-360",
+      "title": "Lincoln Memorial interior — 360°",
+      "media": {
+        "type": "image360",
+        "url": "lincoln-interior-360.jpg"
+      }
+    },
+    {
+      "id": "washington-dsc0205",
+      "title": "Washington Monument — DSC 0205",
+      "media": {
+        "type": "image",
+        "url": "washington-dsc0205.jpg"
+      }
+    },
+    {
+      "id": "washington-tidal-basin-night",
+      "title": "Washington Monument and Tidal Basin at night",
+      "media": {
+        "type": "image",
+        "url": "washington-tidal-basin-night.jpg"
+      }
+    },
+    {
+      "id": "washington-sunset",
+      "title": "Washington Monument at sunset",
+      "media": {
+        "type": "image",
+        "url": "washington-sunset.jpg"
+      }
+    },
+    {
+      "id": "washington-wamo9856",
+      "title": "Washington Monument — WAMO9856",
+      "media": {
+        "type": "image",
+        "url": "washington-wamo9856.jpg"
+      }
+    },
+    {
+      "id": "lincoln-linc1965",
+      "title": "Lincoln Memorial — LINC1965",
+      "media": {
+        "type": "image",
+        "url": "lincoln-linc1965.jpg"
+      }
+    },
+    {
+      "id": "lincoln-linc8578",
+      "title": "Lincoln Memorial — LINC8578",
+      "media": {
+        "type": "image",
+        "url": "lincoln-linc8578.jpg"
+      }
+    },
+    {
+      "id": "lincoln-dsc0406",
+      "title": "Lincoln Memorial — DSC 0406",
+      "media": {
+        "type": "image",
+        "url": "lincoln-dsc0406.jpg"
+      }
+    },
+    {
+      "id": "jefferson-tidal-basin-dawn",
+      "title": "Jefferson Memorial across the Tidal Basin before dawn",
+      "media": {
+        "type": "image",
+        "url": "jefferson-tidal-basin-dawn.jpg"
+      }
+    },
+    {
+      "id": "national-mall-overview",
+      "title": "National Mall — NPS overview",
+      "media": {
+        "type": "image",
+        "url": "national-mall-overview.jpg"
+      }
+    },
+    {
+      "id": "national-mall-nama8591",
+      "title": "National Mall and Memorial Parks — NAMA8591",
+      "media": {
+        "type": "image",
+        "url": "national-mall-nama8591.jpg"
+      }
+    },
+    {
+      "id": "jefferson-statue",
+      "title": "Jefferson Memorial statue",
+      "media": {
+        "type": "image",
+        "url": "jefferson-statue.jpg"
+      }
+    }
+  ]
+}

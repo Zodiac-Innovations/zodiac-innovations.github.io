@@ -1,0 +1,164 @@
+{
+  "url": "https://zodiacinnovations.com/aetheratlas/examples/Oz/oz.aetheratlas",
+  "id": "magesteve.oz",
+  "version": "1.0.0",
+  "name": "The Land of Oz",
+  "details": {
+    "media": "ai",
+    "description": "A sample atlas inspired by L. Frank Baum's The Wonderful Wizard of Oz (1900).",
+    "author": {
+      "creatorid": "magesteve",
+      "name": "Steve Sheets",
+      "email": "magesteve@mac.com",
+      "registeredid": "magesteve"
+    },
+    "initiallocation": "munchkin-country",
+    "creationdate": "2026/11/01",
+    "lastrevision": "2026/11/02"
+  },
+  "formatversion": 1,
+  "maps": [
+    {
+      "image": "classicmap.png",
+      "pinstyle": "flag",
+      "pins": [],
+      "title": "Classic Map"
+    },
+    {
+      "title": "Modern Map",
+      "image": "modernmap.png",
+      "pinstyle": "flag",
+      "pins": []
+    }
+  ],
+  "locations": [
+    {
+      "id": "munchkin-country",
+      "title": "Munchkin Country",
+      "media": {
+        "type": "image360",
+        "url": "munchkin-country-360.png"
+      }
+    },
+    {
+      "id": "scarecrow-cornfield",
+      "title": "The Scarecrow’s Cornfield",
+      "media": {
+        "type": "image360",
+        "url": "scarecrow-cornfield-360.png"
+      }
+    },
+    {
+      "id": "tin-woodman-forest",
+      "title": "The Tin Woodman’s Forest",
+      "media": {
+        "type": "image360",
+        "url": "tin-woodman-forest-360.png"
+      }
+    },
+    {
+      "id": "lion-forest",
+      "title": "The Lion’s Forest",
+      "media": {
+        "type": "image360",
+        "url": "lion-forest-360.png"
+      }
+    },
+    {
+      "id": "great-ravine",
+      "title": "The Great Ravine",
+      "media": {
+        "type": "image360",
+        "url": "great-ravine-360.png"
+      }
+    },
+    {
+      "id": "river-crossing",
+      "title": "The River Crossing",
+      "media": {
+        "type": "image360",
+        "url": "river-crossing-360.png"
+      }
+    },
+    {
+      "id": "poppy-field",
+      "title": "The Deadly Poppy Field",
+      "media": {
+        "type": "image360",
+        "url": "poppy-field-360.png"
+      }
+    },
+    {
+      "id": "emerald-city-approach",
+      "title": "Emerald City Approach",
+      "media": {
+        "type": "image360",
+        "url": "emerald-city-approach-360.png"
+      }
+    },
+    {
+      "id": "emerald-city-gates",
+      "title": "The Gates of Emerald City",
+      "media": {
+        "type": "image360",
+        "url": "emerald-city-gates-360.png"
+      }
+    },
+    {
+      "id": "emerald-city-street",
+      "title": "Emerald City Street",
+      "media": {
+        "type": "image360",
+        "url": "emerald-city-street-360.png"
+      }
+    },
+    {
+      "id": "wizard-throne-room",
+      "title": "The Wizard’s Throne Room",
+      "media": {
+        "type": "image360",
+        "url": "wizard-throne-room-360.png"
+      }
+    },
+    {
+      "id": "witch-castle",
+      "title": "The Wicked Witch’s Castle",
+      "media": {
+        "type": "image360",
+        "url": "witch-castle-360.png"
+      }
+    },
+    {
+      "id": "fighting-trees",
+      "title": "The Fighting Trees",
+      "media": {
+        "type": "image360",
+        "url": "fighting-trees-360.png"
+      }
+    },
+    {
+      "id": "china-country",
+      "title": "The Dainty China Country",
+      "media": {
+        "type": "image360",
+        "url": "china-country-360.png"
+      }
+    },
+    {
+      "id": "hammer-heads-hill",
+      "title": "The Hammer-Heads’ Hill",
+      "media": {
+        "type": "image360",
+        "url": "hammer-heads-hill-360.png"
+      }
+    },
+    {
+      "id": "glinda-palace",
+      "title": "Glinda’s Palace",
+      "media": {
+        "type": "image360",
+        "url": "glinda-palace-360.png"
+      }
+    }
+  ]
+}

@@ -11,3 +11,7 @@ When adding or changing a registration, update the map registry and the correspo
 The public base URL is https://zodiacinnovations.com/registry/.
 
 `atlascreators.json` contains registered creators in a `creators` array.
+
+## Hosted examples
+
+The complete example tours are maintained in [`/aetheratlas/examples/`](https://zodiacinnovations.com/aetheratlas/examples/), including HTML, descriptors, and images. The registry and creator pages point to these public website URLs.

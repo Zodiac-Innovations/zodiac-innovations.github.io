@@ -1,0 +1,131 @@
+{
+  "reviewed": "2026-11-01",
+  "images": [
+    {
+      "id": "lincoln-interior-360",
+      "name": "Lincoln Memorial interior — 360°",
+      "type": "image360",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Lincoln_Memorial_Interior%2C_360_degrees_%28acf47c1c-9601-4b1b-9225-cf25f6a89bf9%29.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ALincoln_Memorial_Interior%2C_360_degrees_%28acf47c1c-9601-4b1b-9225-cf25f6a89bf9%29.jpg",
+      "rights": "Public domain in the United States: official work of a U.S. National Park Service employee.",
+      "reviewed": "2026-11-01",
+      "hostedurl": "https://zodiacinnovations.com/aetheratlas/examples/dcmall/lincoln-interior-360.jpg"
+    },
+    {
+      "id": "washington-dsc0205",
+      "name": "Washington Monument — DSC 0205",
+      "type": "image",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Washington_Monument_DSC_0205.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AWashington_Monument_DSC_0205.jpg",
+      "rights": "Public domain in the United States: official work of a U.S. National Park Service employee.",
+      "reviewed": "2026-11-01",
+      "hostedurl": "https://zodiacinnovations.com/aetheratlas/examples/dcmall/washington-dsc0205.jpg"
+    },
+    {
+      "id": "washington-tidal-basin-night",
+      "name": "Washington Monument and Tidal Basin at night",
+      "type": "image",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Washington_Monument_administered_by_National_Mall_%26_Memorial_Parks%2C_DC_%286fa81113-b20b-4f52-9ea0-e024369ba7d3%29.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AWashington_Monument_administered_by_National_Mall_%26_Memorial_Parks%2C_DC_%286fa81113-b20b-4f52-9ea0-e024369ba7d3%29.jpg",
+      "rights": "Public domain in the United States: official work of a U.S. National Park Service employee.",
+      "reviewed": "2026-11-01",
+      "hostedurl": "https://zodiacinnovations.com/aetheratlas/examples/dcmall/washington-tidal-basin-night.jpg"
+    },
+    {
+      "id": "washington-sunset",
+      "name": "Washington Monument at sunset",
+      "type": "image",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Washington_Monument_%281bd5107a-288c-4574-b120-144446ed203e%29.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AWashington_Monument_%281bd5107a-288c-4574-b120-144446ed203e%29.jpg",
+      "rights": "Public domain in the United States: official work of a U.S. National Park Service employee.",
+      "reviewed": "2026-11-01",
+      "hostedurl": "https://zodiacinnovations.com/aetheratlas/examples/dcmall/washington-sunset.jpg"
+    },
+    {
+      "id": "washington-wamo9856",
+      "name": "Washington Monument — WAMO9856",
+      "type": "image",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Washington_Monument_WAMO9856.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AWashington_Monument_WAMO9856.jpg",
+      "rights": "Public domain in the United States: official work of a U.S. National Park Service employee.",
+      "reviewed": "2026-11-01",
+      "hostedurl": "https://zodiacinnovations.com/aetheratlas/examples/dcmall/washington-wamo9856.jpg"
+    },
+    {
+      "id": "lincoln-linc1965",
+      "name": "Lincoln Memorial — LINC1965",
+      "type": "image",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Lincoln_Memorial_LINC1965.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ALincoln_Memorial_LINC1965.jpg",
+      "rights": "Public domain in the United States: official work of a U.S. National Park Service employee.",
+      "reviewed": "2026-11-01",
+      "hostedurl": "https://zodiacinnovations.com/aetheratlas/examples/dcmall/lincoln-linc1965.jpg"
+    },
+    {
+      "id": "lincoln-linc8578",
+      "name": "Lincoln Memorial — LINC8578",
+      "type": "image",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Lincoln_Memorial_LINC8578.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ALincoln_Memorial_LINC8578.jpg",
+      "rights": "Public domain in the United States: official work of a U.S. National Park Service employee.",
+      "reviewed": "2026-11-01",
+      "hostedurl": "https://zodiacinnovations.com/aetheratlas/examples/dcmall/lincoln-linc8578.jpg"
+    },
+    {
+      "id": "lincoln-dsc0406",
+      "name": "Lincoln Memorial — DSC 0406",
+      "type": "image",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Lincoln_Memorial_DSC_0406.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ALincoln_Memorial_DSC_0406.jpg",
+      "rights": "Public domain in the United States: official work of a U.S. National Park Service employee.",
+      "reviewed": "2026-11-01",
+      "hostedurl": "https://zodiacinnovations.com/aetheratlas/examples/dcmall/lincoln-dsc0406.jpg"
+    },
+    {
+      "id": "jefferson-tidal-basin-dawn",
+      "name": "Jefferson Memorial across the Tidal Basin before dawn",
+      "type": "image",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Thomas_Jefferson_Memorial_at_National_Mall_%26_Memorial_Parks_%288379c484-3e98-4b64-b994-b2addf6c8c22%29.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AThomas_Jefferson_Memorial_at_National_Mall_%26_Memorial_Parks_%288379c484-3e98-4b64-b994-b2addf6c8c22%29.jpg",
+      "rights": "Public domain in the United States: official work of a U.S. National Park Service employee.",
+      "reviewed": "2026-11-01",
+      "hostedurl": "https://zodiacinnovations.com/aetheratlas/examples/dcmall/jefferson-tidal-basin-dawn.jpg"
+    },
+    {
+      "id": "national-mall-overview",
+      "name": "National Mall — NPS overview",
+      "type": "image",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/National_Mall%2C_Washington_D.C._%28dc0e454f-b582-4642-95a2-1c8488ccae1b%29.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ANational_Mall%2C_Washington_D.C._%28dc0e454f-b582-4642-95a2-1c8488ccae1b%29.jpg",
+      "rights": "Public domain in the United States: official work of a U.S. National Park Service employee.",
+      "reviewed": "2026-11-01",
+      "hostedurl": "https://zodiacinnovations.com/aetheratlas/examples/dcmall/national-mall-overview.jpg"
+    },
+    {
+      "id": "national-mall-nama8591",
+      "name": "National Mall and Memorial Parks — NAMA8591",
+      "type": "image",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/National_Mall_and_Memorial_Parks_NAMA8591.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3ANational_Mall_and_Memorial_Parks_NAMA8591.jpg",
+      "rights": "Public domain in the United States: official work of a U.S. National Park Service employee.",
+      "reviewed": "2026-11-01",
+      "hostedurl": "https://zodiacinnovations.com/aetheratlas/examples/dcmall/national-mall-nama8591.jpg"
+    },
+    {
+      "id": "jefferson-statue",
+      "name": "Jefferson Memorial statue",
+      "type": "image",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/95/Jefferson_memorial.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File%3AJefferson_memorial.jpg",
+      "rights": "Public domain dedication by photographer Sox524; fallback permission for any purpose without conditions.",
+      "reviewed": "2026-11-01",
+      "hostedurl": "https://zodiacinnovations.com/aetheratlas/examples/dcmall/jefferson-statue.jpg"
+    }
+  ],
+  "map": {
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/NPS_national-mall-map.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File%3ANPS_national-mall-map.jpg",
+    "rights": "Public domain in the United States: NPS government work; source credits restoration/cleanup by National Park Maps.",
+    "hostedurl": "https://zodiacinnovations.com/aetheratlas/examples/dcmall/national-mall-map.jpg"
+  }
+}
