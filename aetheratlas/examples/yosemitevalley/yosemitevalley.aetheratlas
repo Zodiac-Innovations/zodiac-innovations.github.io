@@ -14,7 +14,14 @@
     },
     "initiallocation": "tunnel-view",
     "creationdate": "2026/11/02",
-    "lastrevision": "2026/11/02"
+    "lastrevision": "2026/11/03",
+    "defaults": {
+      "panoramadegrees": 270,
+      "environment": {
+        "type": "color",
+        "color": "black"
+      }
+    }
   },
   "formatversion": 1,
   "maps": [
@@ -77,7 +84,8 @@
       "description": "A wide panorama from Glacier Point across Yosemite Valley and Half Dome. This is not a full spherical image.",
       "media": {
         "type": "panorama",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Panorama_Half_Dome.jpg"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Panorama_Half_Dome.jpg",
+        "degrees": 270
       }
     },
     {

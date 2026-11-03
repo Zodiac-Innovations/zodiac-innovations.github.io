@@ -14,7 +14,14 @@
     },
     "initiallocation": "munchkin-country",
     "creationdate": "2026/11/01",
-    "lastrevision": "2026/11/02"
+    "lastrevision": "2026/11/03",
+    "defaults": {
+      "panoramadegrees": 270,
+      "environment": {
+        "type": "color",
+        "color": "black"
+      }
+    }
   },
   "formatversion": 1,
   "maps": [
