@@ -40,3 +40,5 @@ Eleven photo records identify official NPS works as public domain in the United 
 Original Wikimedia image links were resolved through their file pages on November 1, 2026. External hosting is outside this repository's control. The map is a historical brochure image, not a guarantee of current visitor access or facilities.
 
 This example demonstrates externally hosted media. Keep the folder free of image and movie files; do not download media into this published sample. The descriptor and HTML are hosted on the Zodiac Innovations website, while all thirteen image references point to their external public-domain sources. External availability can change independently of this website.
+
+The visible source/copyright note is stored in `comments.txt`. Regenerate the page with `aetheratlas html -d` to reuse it; omit `-c` because that option creates a new comments file and refuses an existing one.
