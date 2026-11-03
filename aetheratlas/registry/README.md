@@ -8,7 +8,7 @@ In an atlas descriptor, optional `details.author.registeredid` identifies the re
 
 When adding or changing a registration, update the map registry and the corresponding creator page together.
 
-The public base URL is https://zodiacinnovations.com/registry/.
+The public base URL is https://zodiacinnovations.com/aetheratlas/registry/.
 
 `atlascreators.json` contains registered creators in a `creators` array.
 
