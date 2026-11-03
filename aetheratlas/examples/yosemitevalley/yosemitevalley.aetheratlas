@@ -1,0 +1,102 @@
+{
+  "url": "https://zodiacinnovations.com/aetheratlas/examples/yosemitevalley/yosemitevalley.aetheratlas",
+  "id": "magesteve.yosemitevalley",
+  "version": "1.0.0",
+  "name": "Yosemite Valley",
+  "details": {
+    "media": "photo",
+    "description": "Explore Yosemite Valley through public-domain photographs: Tunnel View, Bridalveil Fall, El Capitan, Yosemite Lodge, Yosemite Falls, Glacier Point, Half Dome, and the historic Firefall.",
+    "author": {
+      "creatorid": "magesteve",
+      "name": "Steve Sheets",
+      "email": "magesteve@mac.com",
+      "registeredid": "magesteve"
+    },
+    "initiallocation": "tunnel-view",
+    "creationdate": "2026/11/02",
+    "lastrevision": "2026/11/02"
+  },
+  "formatversion": 1,
+  "maps": [
+    {
+      "title": "Yosemite Valley Map",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/NPS_yosemite-valley-map.jpg",
+      "pinstyle": "pin",
+      "pins": []
+    }
+  ],
+  "locations": [
+    {
+      "id": "tunnel-view",
+      "title": "Tunnel View",
+      "description": "A winter view into Yosemite Valley from Tunnel View.",
+      "media": {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Tunnel_view%2C_Yosemite.jpg"
+      }
+    },
+    {
+      "id": "bridalveil-fall",
+      "title": "Bridalveil Fall",
+      "description": "Yosemite Valley with Bridalveil Fall on the right.",
+      "media": {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Bridalveil2.JPG"
+      }
+    },
+    {
+      "id": "valley-view",
+      "title": "Valley View — El Capitan and Cathedral Rocks",
+      "description": "El Capitan and Cathedral Rocks frame this view of the valley.",
+      "media": {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Yosemite_National_Park.jpg"
+      }
+    },
+    {
+      "id": "yosemite-lodge",
+      "title": "Yosemite Lodge — Half Dome at Sunset",
+      "description": "Half Dome at sunset, photographed near Yosemite Lodge; this is a view from the lodge area, not a photograph of its buildings.",
+      "media": {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Sunset_Half_Dome_Lodge.jpg"
+      }
+    },
+    {
+      "id": "yosemite-falls",
+      "title": "Yosemite Falls",
+      "description": "Yosemite Falls seen from the valley.",
+      "media": {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Yosemite_Falls-600px.jpg"
+      }
+    },
+    {
+      "id": "glacier-point",
+      "title": "Glacier Point Panorama",
+      "description": "A wide panorama from Glacier Point across Yosemite Valley and Half Dome. This is not a full spherical image.",
+      "media": {
+        "type": "panorama",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Panorama_Half_Dome.jpg"
+      }
+    },
+    {
+      "id": "half-dome",
+      "title": "Half Dome",
+      "description": "A view of Half Dome's distinctive granite profile.",
+      "media": {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Half_dome_in_national_park_great_mountain.jpg"
+      }
+    },
+    {
+      "id": "historic-firefall",
+      "title": "The Historic Yosemite Firefall",
+      "description": "A historical photograph of the former man-made Glacier Point Firefall, not the present-day Horsetail Fall sunlight phenomenon.",
+      "media": {
+        "type": "image",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/FireFall.jpg"
+      }
+    }
+  ]
+}
