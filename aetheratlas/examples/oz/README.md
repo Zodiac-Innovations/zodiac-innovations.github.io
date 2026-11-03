@@ -42,7 +42,7 @@ From the AetherAtlasExamples repository root, after pulling the current files:
 ```sh
 git pull
 # Check the description only:
-aetheratlas check Oz/oz.aetheratlas
+aetheratlas check oz/oz.aetheratlas
 # Check the description and every referenced asset in the folder:
 aetheratlas validate Oz
 ```
