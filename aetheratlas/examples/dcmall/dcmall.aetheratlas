@@ -5,7 +5,7 @@
   "name": "Washington, DC — National Mall",
   "details": {
     "media": "photo",
-    "description": "A public-domain photo inspection tour of the National Mall, Washington Monument, Lincoln Memorial, and Jefferson Memorial. Includes one genuine spherical panorama and eleven ordinary photographs.",
+    "description": "A public-domain photo inspection tour of the National Mall, Washington Monument, Lincoln Memorial, and Jefferson Memorial. Includes one genuine spherical panorama and ten ordinary photographs.",
     "author": {
       "creatorid": "magesteve",
       "name": "Steve Sheets",
@@ -112,14 +112,6 @@
       "media": {
         "type": "image",
         "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/National_Mall_and_Memorial_Parks_NAMA8591.jpg"
-      }
-    },
-    {
-      "id": "jefferson-statue",
-      "title": "Jefferson Memorial statue",
-      "media": {
-        "type": "image",
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Jefferson_memorial.jpg"
       }
     }
   ]
