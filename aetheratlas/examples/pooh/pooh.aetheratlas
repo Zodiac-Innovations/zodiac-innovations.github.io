@@ -1,0 +1,96 @@
+{
+  "url": "https://zodiacinnovations.com/aetheratlas/examples/pooh/pooh.aetheratlas",
+  "id": "magesteve.pooh",
+  "version": "1.0.0",
+  "name": "100 Acres Woods",
+  "details": {
+    "media": "ai",
+    "description": "Explore six woodland locations inspired by A. A. Milne’s original Winnie-the-Pooh stories, with AI-created panoramic artwork.",
+    "author": {
+      "creatorid": "magesteve",
+      "name": "Steve Sheets",
+      "email": "magesteve@mac.com",
+      "registeredid": "magesteve"
+    },
+    "initiallocation": "pooh-house",
+    "creationdate": "2026/11/04",
+    "lastrevision": "2026/11/04",
+    "defaults": {
+      "panoramadegrees": 270,
+      "environment": {
+        "type": "color",
+        "color": "black"
+      },
+      "hud-1": "exit",
+      "hud-2": "shortlist",
+      "exitstring": "Do you wish to leave 100 Acres Woods?",
+      "showhud": true,
+      "showmap": false,
+      "hudormap": true
+    }
+  },
+  "formatversion": 1,
+  "maps": [],
+  "locations": [
+    {
+      "id": "pooh-house",
+      "title": "Pooh’s House",
+      "shortitle": "Pooh",
+      "description": "Pooh’s welcoming home beneath a great oak, with honey pots, a log seat, and paths through the sunlit wood.",
+      "media": {
+        "type": "image360",
+        "url": "pooh-house-360.png"
+      }
+    },
+    {
+      "id": "piglet-house",
+      "title": "Piglet’s House",
+      "shortitle": "Piglet",
+      "description": "Piglet’s tiny home at the foot of an enormous beech tree, surrounded by violets, ferns, and fallen leaves.",
+      "media": {
+        "type": "image360",
+        "url": "piglet-house-360.png"
+      }
+    },
+    {
+      "id": "rabbit-house",
+      "title": "Rabbit’s House",
+      "shortitle": "Rabbit",
+      "description": "Rabbit’s tidy burrow in a grassy bank, beside a vegetable garden filled with carrots and cabbages.",
+      "media": {
+        "type": "image360",
+        "url": "rabbit-house-360.png"
+      }
+    },
+    {
+      "id": "owl-house",
+      "title": "Owl’s House",
+      "shortitle": "Owl",
+      "description": "Owl’s lofty home in an ancient hollow oak, overlooking a leafy clearing and winding woodland paths.",
+      "media": {
+        "type": "image360",
+        "url": "owl-house-360.png"
+      }
+    },
+    {
+      "id": "kanga-roo-house",
+      "title": "Kanga and Roo’s House",
+      "shortitle": "Kanga & Roo",
+      "description": "Kanga and Roo’s welcoming woodland home, with a sunny clearing and a sandy place to play.",
+      "media": {
+        "type": "image360",
+        "url": "kanga-roo-house-360.png"
+      }
+    },
+    {
+      "id": "eeyore-gloomy-place",
+      "title": "Eeyore’s Gloomy Place",
+      "shortitle": "Eeyore",
+      "description": "Eeyore’s quiet, slightly boggy clearing, with thistles, puddles, and a simple shelter of leaning sticks.",
+      "media": {
+        "type": "image360",
+        "url": "eeyore-gloomy-place-360.png"
+      }
+    }
+  ]
+}
