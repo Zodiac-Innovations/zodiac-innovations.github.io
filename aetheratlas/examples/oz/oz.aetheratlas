@@ -20,7 +20,10 @@
       "environment": {
         "type": "color",
         "color": "black"
-      }
+      },
+      "hud-1": "exit",
+      "hud-2": "shortlist",
+      "exitstring": "Do you wish to leave the World of Oz?"
     }
   },
   "formatversion": 1,
@@ -45,7 +48,8 @@
       "media": {
         "type": "image360",
         "url": "munchkin-country-360.png"
-      }
+      },
+      "shortitle": "Munchkin"
     },
     {
       "id": "scarecrow-cornfield",
@@ -53,7 +57,8 @@
       "media": {
         "type": "image360",
         "url": "scarecrow-cornfield-360.png"
-      }
+      },
+      "shortitle": "Scarecrow"
     },
     {
       "id": "tin-woodman-forest",
@@ -61,7 +66,8 @@
       "media": {
         "type": "image360",
         "url": "tin-woodman-forest-360.png"
-      }
+      },
+      "shortitle": "Tin Woodman"
     },
     {
       "id": "lion-forest",
@@ -69,7 +75,8 @@
       "media": {
         "type": "image360",
         "url": "lion-forest-360.png"
-      }
+      },
+      "shortitle": "Lion"
     },
     {
       "id": "great-ravine",
@@ -77,7 +84,8 @@
       "media": {
         "type": "image360",
         "url": "great-ravine-360.png"
-      }
+      },
+      "shortitle": "Ravine"
     },
     {
       "id": "river-crossing",
@@ -85,7 +93,8 @@
       "media": {
         "type": "image360",
         "url": "river-crossing-360.png"
-      }
+      },
+      "shortitle": "River"
     },
     {
       "id": "poppy-field",
@@ -93,7 +102,8 @@
       "media": {
         "type": "image360",
         "url": "poppy-field-360.png"
-      }
+      },
+      "shortitle": "Poppies"
     },
     {
       "id": "emerald-city-approach",
@@ -101,7 +111,8 @@
       "media": {
         "type": "image360",
         "url": "emerald-city-approach-360.png"
-      }
+      },
+      "shortitle": "City Approach"
     },
     {
       "id": "emerald-city-gates",
@@ -109,7 +120,8 @@
       "media": {
         "type": "image360",
         "url": "emerald-city-gates-360.png"
-      }
+      },
+      "shortitle": "City Gates"
     },
     {
       "id": "emerald-city-street",
@@ -117,7 +129,8 @@
       "media": {
         "type": "image360",
         "url": "emerald-city-street-360.png"
-      }
+      },
+      "shortitle": "City Street"
     },
     {
       "id": "wizard-throne-room",
@@ -125,7 +138,8 @@
       "media": {
         "type": "image360",
         "url": "wizard-throne-room-360.png"
-      }
+      },
+      "shortitle": "Wizard"
     },
     {
       "id": "witch-castle",
@@ -133,7 +147,8 @@
       "media": {
         "type": "image360",
         "url": "witch-castle-360.png"
-      }
+      },
+      "shortitle": "Witch’s Castle"
     },
     {
       "id": "fighting-trees",
@@ -141,7 +156,8 @@
       "media": {
         "type": "image360",
         "url": "fighting-trees-360.png"
-      }
+      },
+      "shortitle": "Fighting Trees"
     },
     {
       "id": "china-country",
@@ -149,7 +165,8 @@
       "media": {
         "type": "image360",
         "url": "china-country-360.png"
-      }
+      },
+      "shortitle": "China Country"
     },
     {
       "id": "hammer-heads-hill",
@@ -157,7 +174,8 @@
       "media": {
         "type": "image360",
         "url": "hammer-heads-hill-360.png"
-      }
+      },
+      "shortitle": "Hammer-Heads"
     },
     {
       "id": "glinda-palace",
@@ -165,7 +183,8 @@
       "media": {
         "type": "image360",
         "url": "glinda-palace-360.png"
-      }
+      },
+      "shortitle": "Glinda"
     }
   ]
 }

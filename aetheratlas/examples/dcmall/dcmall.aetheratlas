@@ -20,7 +20,9 @@
       "environment": {
         "type": "color",
         "color": "black"
-      }
+      },
+      "hud-1": "exit",
+      "hud-2": "list"
     }
   },
   "formatversion": 1,
