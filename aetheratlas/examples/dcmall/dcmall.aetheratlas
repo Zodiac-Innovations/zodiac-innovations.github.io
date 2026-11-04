@@ -14,7 +14,7 @@
     },
     "initiallocation": "lincoln-interior-360",
     "creationdate": "2026/11/01",
-    "lastrevision": "2026/11/03",
+    "lastrevision": "2026/11/04",
     "defaults": {
       "panoramadegrees": 270,
       "environment": {
@@ -22,16 +22,79 @@
         "color": "black"
       },
       "hud-1": "exit",
-      "hud-2": "list"
-    }
+      "hud-2": "shortlist",
+      "showhud": true,
+      "showmap": false,
+      "hudormap": true,
+      "hud-3": "mapswitch"
+    },
+    "initialmap": "national-mall"
   },
   "formatversion": 1,
   "maps": [
     {
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/32/NPS_national-mall-map.jpg",
       "pinstyle": "pin",
-      "pins": [],
-      "title": "National Mall Map"
+      "pins": [
+        {
+          "location": "lincoln-interior-360",
+          "x": 0.313,
+          "y": 0.475
+        },
+        {
+          "location": "washington-dsc0205",
+          "x": 0.534,
+          "y": 0.466
+        },
+        {
+          "location": "washington-tidal-basin-night",
+          "x": 0.52,
+          "y": 0.49
+        },
+        {
+          "location": "washington-sunset",
+          "x": 0.549,
+          "y": 0.477
+        },
+        {
+          "location": "washington-wamo9856",
+          "x": 0.54,
+          "y": 0.446
+        },
+        {
+          "location": "lincoln-linc1965",
+          "x": 0.299,
+          "y": 0.486
+        },
+        {
+          "location": "lincoln-linc8578",
+          "x": 0.326,
+          "y": 0.483
+        },
+        {
+          "location": "lincoln-dsc0406",
+          "x": 0.313,
+          "y": 0.453
+        },
+        {
+          "location": "jefferson-tidal-basin-dawn",
+          "x": 0.52,
+          "y": 0.66
+        },
+        {
+          "location": "national-mall-overview",
+          "x": 0.709,
+          "y": 0.474
+        },
+        {
+          "location": "national-mall-nama8591",
+          "x": 0.753,
+          "y": 0.474
+        }
+      ],
+      "title": "National Mall Map",
+      "id": "national-mall",
+      "locationname": false
     }
   ],
   "locations": [
@@ -41,7 +104,8 @@
       "media": {
         "type": "image360",
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Lincoln_Memorial_Interior%2C_360_degrees_%28acf47c1c-9601-4b1b-9225-cf25f6a89bf9%29.jpg"
-      }
+      },
+      "shortitle": "Lincoln — 360°"
     },
     {
       "id": "washington-dsc0205",
@@ -49,7 +113,8 @@
       "media": {
         "type": "image",
         "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Washington_Monument_DSC_0205.jpg"
-      }
+      },
+      "shortitle": "Washington — DSC 0205"
     },
     {
       "id": "washington-tidal-basin-night",
@@ -57,7 +122,8 @@
       "media": {
         "type": "image",
         "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Washington_Monument_administered_by_National_Mall_%26_Memorial_Parks%2C_DC_%286fa81113-b20b-4f52-9ea0-e024369ba7d3%29.jpg"
-      }
+      },
+      "shortitle": "Washington — Night"
     },
     {
       "id": "washington-sunset",
@@ -65,7 +131,8 @@
       "media": {
         "type": "image",
         "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Washington_Monument_%281bd5107a-288c-4574-b120-144446ed203e%29.jpg"
-      }
+      },
+      "shortitle": "Washington — Sunset"
     },
     {
       "id": "washington-wamo9856",
@@ -73,7 +140,8 @@
       "media": {
         "type": "image",
         "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Washington_Monument_WAMO9856.jpg"
-      }
+      },
+      "shortitle": "Washington — WAMO9856"
     },
     {
       "id": "lincoln-linc1965",
@@ -81,7 +149,8 @@
       "media": {
         "type": "image",
         "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Lincoln_Memorial_LINC1965.jpg"
-      }
+      },
+      "shortitle": "Lincoln — LINC1965"
     },
     {
       "id": "lincoln-linc8578",
@@ -89,7 +158,8 @@
       "media": {
         "type": "image",
         "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Lincoln_Memorial_LINC8578.jpg"
-      }
+      },
+      "shortitle": "Lincoln — LINC8578"
     },
     {
       "id": "lincoln-dsc0406",
@@ -97,7 +167,8 @@
       "media": {
         "type": "image",
         "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/Lincoln_Memorial_DSC_0406.jpg"
-      }
+      },
+      "shortitle": "Lincoln — DSC 0406"
     },
     {
       "id": "jefferson-tidal-basin-dawn",
@@ -105,7 +176,8 @@
       "media": {
         "type": "image",
         "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Thomas_Jefferson_Memorial_at_National_Mall_%26_Memorial_Parks_%288379c484-3e98-4b64-b994-b2addf6c8c22%29.jpg"
-      }
+      },
+      "shortitle": "Jefferson — Dawn"
     },
     {
       "id": "national-mall-overview",
@@ -113,7 +185,8 @@
       "media": {
         "type": "image",
         "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/National_Mall%2C_Washington_D.C._%28dc0e454f-b582-4642-95a2-1c8488ccae1b%29.jpg"
-      }
+      },
+      "shortitle": "Mall — Overview"
     },
     {
       "id": "national-mall-nama8591",
@@ -121,7 +194,8 @@
       "media": {
         "type": "image",
         "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/National_Mall_and_Memorial_Parks_NAMA8591.jpg"
-      }
+      },
+      "shortitle": "Mall — NAMA8591"
     }
   ]
 }

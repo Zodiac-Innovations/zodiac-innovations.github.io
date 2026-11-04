@@ -14,7 +14,7 @@
     },
     "initiallocation": "tunnel-view",
     "creationdate": "2026/11/02",
-    "lastrevision": "2026/11/03",
+    "lastrevision": "2026/11/04",
     "defaults": {
       "panoramadegrees": 270,
       "environment": {
@@ -22,8 +22,13 @@
         "color": "black"
       },
       "hud-1": "exit",
-      "hud-2": "list"
-    }
+      "hud-2": "shortlist",
+      "showhud": true,
+      "showmap": false,
+      "hudormap": true,
+      "hud-3": "mapswitch"
+    },
+    "initialmap": "yosemite-valley"
   },
   "formatversion": 1,
   "maps": [
@@ -31,7 +36,50 @@
       "title": "Yosemite Valley Map",
       "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/NPS_yosemite-valley-map.jpg",
       "pinstyle": "pin",
-      "pins": []
+      "pins": [
+        {
+          "location": "tunnel-view",
+          "x": 0.074,
+          "y": 0.842
+        },
+        {
+          "location": "bridalveil-fall",
+          "x": 0.209,
+          "y": 0.842
+        },
+        {
+          "location": "valley-view",
+          "x": 0.134,
+          "y": 0.802
+        },
+        {
+          "location": "yosemite-lodge",
+          "x": 0.508,
+          "y": 0.455
+        },
+        {
+          "location": "yosemite-falls",
+          "x": 0.514,
+          "y": 0.25
+        },
+        {
+          "location": "glacier-point",
+          "x": 0.63,
+          "y": 0.636
+        },
+        {
+          "location": "half-dome",
+          "x": 0.867,
+          "y": 0.364
+        },
+        {
+          "location": "historic-firefall",
+          "x": 0.625,
+          "y": 0.659
+        }
+      ],
+      "id": "yosemite-valley",
+      "locationname": false
     }
   ],
   "locations": [
@@ -42,7 +90,8 @@
       "media": {
         "type": "image",
         "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Tunnel_view%2C_Yosemite.jpg"
-      }
+      },
+      "shortitle": "Tunnel View"
     },
     {
       "id": "bridalveil-fall",
@@ -51,7 +100,8 @@
       "media": {
         "type": "image",
         "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Bridalveil2.JPG"
-      }
+      },
+      "shortitle": "Bridalveil Fall"
     },
     {
       "id": "valley-view",
@@ -60,7 +110,8 @@
       "media": {
         "type": "image",
         "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Yosemite_National_Park.jpg"
-      }
+      },
+      "shortitle": "Valley View"
     },
     {
       "id": "yosemite-lodge",
@@ -69,7 +120,8 @@
       "media": {
         "type": "image",
         "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Sunset_Half_Dome_Lodge.jpg"
-      }
+      },
+      "shortitle": "Yosemite Lodge"
     },
     {
       "id": "yosemite-falls",
@@ -78,7 +130,8 @@
       "media": {
         "type": "image",
         "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Yosemite_Falls-600px.jpg"
-      }
+      },
+      "shortitle": "Yosemite Falls"
     },
     {
       "id": "glacier-point",
@@ -88,7 +141,8 @@
         "type": "panorama",
         "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Panorama_Half_Dome.jpg",
         "degrees": 270
-      }
+      },
+      "shortitle": "Glacier Point"
     },
     {
       "id": "half-dome",
@@ -97,7 +151,8 @@
       "media": {
         "type": "image",
         "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Half_dome_in_national_park_great_mountain.jpg"
-      }
+      },
+      "shortitle": "Half Dome"
     },
     {
       "id": "historic-firefall",
@@ -106,7 +161,8 @@
       "media": {
         "type": "image",
         "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/FireFall.jpg"
-      }
+      },
+      "shortitle": "Historic Firefall"
     }
   ]
 }

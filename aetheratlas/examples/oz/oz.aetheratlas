@@ -14,7 +14,7 @@
     },
     "initiallocation": "munchkin-country",
     "creationdate": "2026/11/01",
-    "lastrevision": "2026/11/03",
+    "lastrevision": "2026/11/04",
     "defaults": {
       "panoramadegrees": 270,
       "environment": {
@@ -120,7 +120,7 @@
       ],
       "title": "Classic Map",
       "id": "classic",
-      "locationname": false
+      "locationname": true
     },
     {
       "title": "Modern Map",
@@ -209,7 +209,7 @@
         }
       ],
       "id": "modern",
-      "locationname": true
+      "locationname": false
     }
   ],
   "locations": [

@@ -155,7 +155,7 @@ then defaults, then the built-in value below. File keys remain lowercase.
 | Key | Default | Meaning |
 | --- | --- | --- |
 | `showhud` | `true` | Show the configured HUD when independent mode is active. |
-| `showmap` | `false` | Show the map window expanded when entering the location. |
+| `showmap` | `false` | Initial map visibility from defaults; an explicit location value hides or expands the map on entry. |
 | `hudormap` | `false` | Alternate between expanded map and HUD instead of displaying both. |
 
 With `hudormap: false`, `showhud` controls the HUD independently of map visibility.
@@ -181,9 +181,9 @@ Oz's test configuration includes:
 ```
 
 Existing panorama, environment, and exit-string defaults remain in the same
-object. Location overrides are reapplied whenever that location is entered.
+object. An explicit location `showmap` is reapplied on entry; a default is only the\ninitial visibility, not a command to reset the user’s window on every move.
 
-## Maps, initial selection, and marker names
+Default `showmap` establishes visibility when a tour opens. While moving between\nlocations, preserve the user’s expanded, hidden, or collapsed map state unless the\ndestination explicitly supplies `showmap`. A location `showmap: true` expands it;\n`false` hides it. Window position, rotation, and the selected map also carry over\n(subject to an authored `initialmap` override). A new tour starts from its own defaults.\n\n## Maps, initial selection, and marker names
 
 Each `maps[]` object supports these fields:
 
@@ -214,13 +214,13 @@ while moving between locations.
 ```json
 "details": { "initialmap": "classic" },
 "maps": [
-  {"id":"classic", "title":"Classic Map", "image":"classicmap.png", "locationname":false},
-  {"id":"modern", "title":"Modern Map", "image":"modernmap.png", "locationname":true}
+  {"id":"classic", "title":"Classic Map", "image":"classicmap.png", "locationname":true},
+  {"id":"modern", "title":"Modern Map", "image":"modernmap.png", "locationname":false}
 ]
 ```
 
 The example above shows only the map-related fields; normal required atlas and
-details fields still apply. Oz contains a pin for all 16 locations on each map.
+details fields still apply. Oz contains a pin for all 16 locations on each map;\nClassic starts first with labels on, and Modern has labels off. National Mall and\nYosemite use their existing NPS map images, with 11 and 8 destination pins\nrespectively, plus exit, shortlist, and mapswitch HUD defaults. Their map images\nalready contain labels, so marker labels are off. Pin positions indicate the\nlandmark/area; nearby photos of the same landmark have small display offsets.\nNASA Planets has no map image and keeps its exit/list HUD without mapswitch.
 
 ### Window controls
 
