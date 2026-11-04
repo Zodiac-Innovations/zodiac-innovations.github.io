@@ -4,11 +4,11 @@ Created by Steve Sheets on November 4, 2026.
 
 Identity: `magesteve.pooh`. Descriptor: `pooh.aetheratlas`.
 
-Explore six woodland locations inspired by A. A. Milne’s original Winnie-the-Pooh stories, with AI-created panoramic artwork.
+Explore eleven woodland locations inspired by A. A. Milne’s original Winnie-the-Pooh stories, with AI-created panoramic artwork.
 
 ## Playback
 
-Starts at Pooh’s House with the HUD visible and the map hidden. HUD buttons provide exit and the short location list. There is no navigation map or map-switch button. Every location has one local AI-created panorama registered as `image360`, following the Oz example. Spherical seams and pole appearance should be reviewed in the player.
+Starts at Pooh’s House with the HUD visible and the map hidden. HUD buttons provide exit, the short location list, and the map toggle. The default Woodland Map has clickable pins for all eleven destinations; labels are included in the artwork. Every location has one local AI-created panorama registered as `image360`, following the Oz example. Spherical seams and pole appearance should be reviewed in the player.
 
 ## Locations
 
@@ -18,6 +18,12 @@ Starts at Pooh’s House with the HUD visible and the map hidden. HUD buttons pr
 - Owl’s House — `owl-house-360.png`
 - Kanga and Roo’s House — `kanga-roo-house-360.png`
 - Eeyore’s Gloomy Place — `eeyore-gloomy-place-360.png`
+
+- Christopher Robin’s House — `christopher-robin-house-panorama.jpg`
+- Roo’s Sandy Pit — `roo-sandy-pit-panorama.jpg`
+- The Picnic Place — `picnic-place-panorama.jpg`
+- The Bee Tree — `bee-tree-panorama.jpg`
+- The Way to the North Pole — `north-pole-panorama.jpg`
 
 ## Artwork
 

@@ -5,7 +5,7 @@
   "name": "100 Acres Woods",
   "details": {
     "media": "ai",
-    "description": "Explore six woodland locations inspired by A. A. Milne’s original Winnie-the-Pooh stories, with AI-created panoramic artwork.",
+    "description": "Explore eleven woodland locations inspired by A. A. Milne’s original Winnie-the-Pooh stories, with AI-created panoramic artwork.",
     "author": {
       "creatorid": "magesteve",
       "name": "Steve Sheets",
@@ -26,11 +26,78 @@
       "exitstring": "Do you wish to leave 100 Acres Woods?",
       "showhud": true,
       "showmap": false,
-      "hudormap": true
-    }
+      "hudormap": true,
+      "hud-3": "mapswitch"
+    },
+    "initialmap": "woodland"
   },
   "formatversion": 1,
-  "maps": [],
+  "maps": [
+    {
+      "id": "woodland",
+      "title": "Woodland Map",
+      "image": "woodland-map.jpg",
+      "pinstyle": "pin",
+      "locationname": false,
+      "pins": [
+        {
+          "location": "pooh-house",
+          "x": 0.113,
+          "y": 0.458
+        },
+        {
+          "location": "piglet-house",
+          "x": 0.161,
+          "y": 0.711
+        },
+        {
+          "location": "rabbit-house",
+          "x": 0.526,
+          "y": 0.483
+        },
+        {
+          "location": "owl-house",
+          "x": 0.482,
+          "y": 0.657
+        },
+        {
+          "location": "kanga-roo-house",
+          "x": 0.395,
+          "y": 0.356
+        },
+        {
+          "location": "eeyore-gloomy-place",
+          "x": 0.833,
+          "y": 0.79
+        },
+        {
+          "location": "christopher-robin-house",
+          "x": 0.889,
+          "y": 0.435
+        },
+        {
+          "location": "roo-sandy-pit",
+          "x": 0.469,
+          "y": 0.217
+        },
+        {
+          "location": "picnic-place",
+          "x": 0.199,
+          "y": 0.217
+        },
+        {
+          "location": "bee-tree",
+          "x": 0.644,
+          "y": 0.249
+        },
+        {
+          "location": "north-pole",
+          "x": 0.925,
+          "y": 0.083
+        }
+      ]
+    }
+  ],
   "locations": [
     {
       "id": "pooh-house",
@@ -90,6 +157,56 @@
       "media": {
         "type": "image360",
         "url": "eeyore-gloomy-place-360.png"
+      }
+    },
+    {
+      "id": "christopher-robin-house",
+      "title": "Christopher Robin’s House",
+      "shortitle": "Christopher Robin",
+      "description": "A welcoming cottage at the woodland edge.",
+      "media": {
+        "type": "image360",
+        "url": "christopher-robin-house-panorama.jpg"
+      }
+    },
+    {
+      "id": "roo-sandy-pit",
+      "title": "Roo’s Sandy Pit",
+      "shortitle": "Sandy Pit",
+      "description": "A sunny sandy hollow among roots and bracken.",
+      "media": {
+        "type": "image360",
+        "url": "roo-sandy-pit-panorama.jpg"
+      }
+    },
+    {
+      "id": "picnic-place",
+      "title": "The Picnic Place",
+      "shortitle": "Picnic",
+      "description": "A grassy clearing with a picnic beneath spreading trees.",
+      "media": {
+        "type": "image360",
+        "url": "picnic-place-panorama.jpg"
+      }
+    },
+    {
+      "id": "bee-tree",
+      "title": "The Bee Tree",
+      "shortitle": "Bee Tree",
+      "description": "An ancient oak with a bee nest high in its trunk.",
+      "media": {
+        "type": "image360",
+        "url": "bee-tree-panorama.jpg"
+      }
+    },
+    {
+      "id": "north-pole",
+      "title": "The Way to the North Pole",
+      "shortitle": "North Pole",
+      "description": "An expedition trail beside a shallow woodland stream.",
+      "media": {
+        "type": "image360",
+        "url": "north-pole-panorama.jpg"
       }
     }
   ]

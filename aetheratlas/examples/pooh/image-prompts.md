@@ -32,3 +32,9 @@ Kanga and Roo's welcoming small rustic woodland house in a sunny clearing, modes
 
 Eeyore's quiet gloomy corner of an English woodland, a slightly boggy grassy clearing under drooping branches, a few shallow puddles, reeds and thistles, a small rough shelter of leaning sticks at the edge of the clearing. A grey stuffed donkey with long drooping ears, black mane and a pinned-on tail with small dark tuft stands thoughtfully beside it. Soft overcast light with a gentle hint of sunshine through the trees; melancholy but comforting.
 
+
+## Added locations and navigation map
+
+Five additional environments: Christopher Robin’s woodland cottage; Roo’s sunny sandy hollow; a woodland picnic clearing; an ancient bee tree; and an expedition path beside a stream leading to the North Pole. Richly detailed panoramic early twentieth-century ink-and-watercolor storybook treatment, warm greens and ochres, eye-level viewpoint, no characters or lettering.
+
+Woodland Map: an original ink-and-watercolor interpretation of the 1926 E. H. Shepard map layout, cream paper, woodland paths, stream, eleven labeled destinations, no embedded pins. Reference: https://www.bbc.com/news/uk-england-sussex-44781752 ; original image consulted via https://www.sothebys.com/en/articles/winnie-the-poohs-original-hundred-acre-wood-unseen-for-50-years .
