@@ -5,7 +5,7 @@
   "name": "NASA Planets",
   "details": {
     "media": "photo",
-    "description": "Explore Mercury, Venus, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, and the Sun through three NASA archive images per location. Multi-photo format proposal: this example uses media.type \"images\" with an images array. It requires future CLI and player support; the current single-image format does not support it.",
+    "description": "Explore the Sun, Mercury, Venus, Mars, Jupiter, Saturn, Uranus, Neptune, and Pluto through one NASA archive image per location.",
     "author": {
       "creatorid": "magesteve",
       "name": "Steve Sheets",
@@ -21,208 +21,151 @@
         "color": "black"
       },
       "hud-1": "exit",
-      "hud-2": "list"
-    }
+      "hud-2": "shortlist",
+      "hud-3": "mapswitch",
+      "showhud": true,
+      "showmap": false,
+      "hudormap": true
+    },
+    "initialmap": "solar-system"
   },
   "formatversion": 1,
-  "maps": [],
+  "maps": [
+    {
+      "id": "solar-system",
+      "title": "Solar System Map",
+      "image": "solarsystemmap.png",
+      "pinstyle": "flag",
+      "locationname": false,
+      "pins": [
+        {
+          "location": "sun",
+          "x": 0.49,
+          "y": 0.145
+        },
+        {
+          "location": "mercury",
+          "x": 0.185,
+          "y": 0.23
+        },
+        {
+          "location": "venus",
+          "x": 0.672,
+          "y": 0.305
+        },
+        {
+          "location": "mars",
+          "x": 0.693,
+          "y": 0.465
+        },
+        {
+          "location": "jupiter",
+          "x": 0.192,
+          "y": 0.554
+        },
+        {
+          "location": "saturn",
+          "x": 0.658,
+          "y": 0.634
+        },
+        {
+          "location": "uranus",
+          "x": 0.2,
+          "y": 0.725
+        },
+        {
+          "location": "neptune",
+          "x": 0.668,
+          "y": 0.802
+        },
+        {
+          "location": "pluto",
+          "x": 0.432,
+          "y": 0.902
+        }
+      ]
+    }
+  ],
   "locations": [
     {
       "id": "sun",
       "title": "Sun",
-      "description": "Three NASA archive views of Sun. See the resource page and source records for processing notes and image credits.",
+      "description": "Almost Spotless — solar observation. See the resource page for NASA source records and image credits.",
       "media": {
-        "type": "images",
-        "images": [
-          {
-            "title": "Almost Spotless — solar observation",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia21/pia21207/PIA21207.jpg"
-          },
-          {
-            "title": "One Small Flare — solar observation",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia22/pia22244/PIA22244.jpg"
-          },
-          {
-            "title": "Coronal Hole Front and Center — solar observation",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia15/pia15379/PIA15379.jpg"
-          }
-        ]
+        "type": "image",
+        "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia21/pia21207/PIA21207.jpg"
       }
     },
     {
       "id": "mercury",
       "title": "Mercury",
-      "description": "Three NASA archive views of Mercury. See the resource page and source records for processing notes and image credits.",
+      "description": "Mercury — enhanced-color composite. See the resource page for NASA source records and image credits.",
       "media": {
-        "type": "images",
-        "images": [
-          {
-            "title": "Mercury — enhanced-color composite",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia10/pia10398/PIA10398.jpg"
-          },
-          {
-            "title": "Caloris Basin — enhanced-color mosaic",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia19/pia19216/PIA19216.jpg"
-          },
-          {
-            "title": "The Great Caloris Basin",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia10/pia10383/PIA10383.jpg"
-          }
-        ]
+        "type": "image",
+        "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia10/pia10398/PIA10398.jpg"
       }
     },
     {
       "id": "venus",
       "title": "Venus",
-      "description": "Three NASA archive views of Venus. See the resource page and source records for processing notes and image credits.",
+      "description": "Venus Cloud Patterns — filtered and colorized. See the resource page for NASA source records and image credits.",
       "media": {
-        "type": "images",
-        "images": [
-          {
-            "title": "Venus Cloud Patterns — filtered and colorized",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia00/pia00072/PIA00072.jpg"
-          },
-          {
-            "title": "Venus — radar reconstruction, 180° east",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia00/pia00104/PIA00104.jpg"
-          },
-          {
-            "title": "Venus Northern Hemisphere — radar reconstruction",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia00/pia00271/PIA00271.jpg"
-          }
-        ]
+        "type": "image",
+        "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia00/pia00072/PIA00072.jpg"
       }
     },
     {
       "id": "mars",
       "title": "Mars",
-      "description": "Three NASA archive views of Mars. See the resource page and source records for processing notes and image credits.",
+      "description": "Global Color Views of Mars — mosaic. See the resource page for NASA source records and image credits.",
       "media": {
-        "type": "images",
-        "images": [
-          {
-            "title": "Global Color Views of Mars — mosaic",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia00/pia00407/PIA00407.jpg"
-          },
-          {
-            "title": "Mars Daily Global Image — mapped globe",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia02/pia02653/PIA02653.jpg"
-          },
-          {
-            "title": "Mars Through Infrared Eyes of Spirit",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia05/pia05029/PIA05029.jpg"
-          }
-        ]
+        "type": "image",
+        "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia00/pia00407/PIA00407.jpg"
       }
     },
     {
       "id": "jupiter",
       "title": "Jupiter",
-      "description": "Three NASA archive views of Jupiter. See the resource page and source records for processing notes and image credits.",
+      "description": "High Resolution Globe of Jupiter — composite. See the resource page for NASA source records and image credits.",
       "media": {
-        "type": "images",
-        "images": [
-          {
-            "title": "High Resolution Globe of Jupiter — composite",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia02/pia02873/PIA02873.jpg"
-          },
-          {
-            "title": "Cassini Jupiter Portrait",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia04/pia04866/PIA04866.jpg"
-          },
-          {
-            "title": "Jupiter — enhanced color",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia00/pia00343/jpeg/PIA00343.jpg"
-          }
-        ]
+        "type": "image",
+        "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia02/pia02873/PIA02873.jpg"
       }
     },
     {
       "id": "saturn",
       "title": "Saturn",
-      "description": "Three NASA archive views of Saturn. See the resource page and source records for processing notes and image credits.",
+      "description": "Saturn — Four Years On. See the resource page for NASA source records and image credits.",
       "media": {
-        "type": "images",
-        "images": [
-          {
-            "title": "Saturn — Four Years On",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia11/pia11141/PIA11141.jpg"
-          },
-          {
-            "title": "In Saturn’s Shadow",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia08/pia08329/PIA08329.jpg"
-          },
-          {
-            "title": "Sun-striped Saturn — infrared",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia06/pia06574/PIA06574.jpg"
-          }
-        ]
+        "type": "image",
+        "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia11/pia11141/PIA11141.jpg"
       }
     },
     {
       "id": "uranus",
       "title": "Uranus",
-      "description": "Three NASA archive views of Uranus. See the resource page and source records for processing notes and image credits.",
+      "description": "Uranus. See the resource page for NASA source records and image credits.",
       "media": {
-        "type": "images",
-        "images": [
-          {
-            "title": "Uranus",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia01/pia01391/PIA01391.jpg"
-          },
-          {
-            "title": "Uranus — Final Image",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia00/pia00143/PIA00143.jpg"
-          },
-          {
-            "title": "Uranus in True and False Color",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia00/pia00032/PIA00032.jpg"
-          }
-        ]
+        "type": "image",
+        "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia01/pia01391/PIA01391.jpg"
       }
     },
     {
       "id": "neptune",
       "title": "Neptune",
-      "description": "Three NASA archive views of Neptune. See the resource page and source records for processing notes and image credits.",
+      "description": "Neptune Full Disk View. See the resource page for NASA source records and image credits.",
       "media": {
-        "type": "images",
-        "images": [
-          {
-            "title": "Neptune Full Disk View",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia01/pia01492/PIA01492.jpg"
-          },
-          {
-            "title": "Neptune",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia01/pia01998/PIA01998.jpg"
-          },
-          {
-            "title": "Neptune Through a Clear Filter",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia01/pia01999/PIA01999.jpg"
-          }
-        ]
+        "type": "image",
+        "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia01/pia01492/PIA01492.jpg"
       }
     },
     {
       "id": "pluto",
       "title": "Pluto",
-      "description": "Three NASA archive views of Pluto. See the resource page and source records for processing notes and image credits.",
+      "description": "Pluto’s Stunning Crescent. See the resource page for NASA source records and image credits.",
       "media": {
-        "type": "images",
-        "images": [
-          {
-            "title": "Pluto’s Stunning Crescent",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia20/pia20038/PIA20038.jpg"
-          },
-          {
-            "title": "New Details on Pluto",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia19/pia19705/PIA19705.jpg"
-          },
-          {
-            "title": "Pluto’s Haze",
-            "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia19/pia19880/PIA19880.jpg"
-          }
-        ]
+        "type": "image",
+        "url": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia20/pia20038/PIA20038.jpg"
       }
     }
   ]

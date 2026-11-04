@@ -2,13 +2,13 @@
 
 Identity: `magesteve.nasaplanets`.
 
-Explore Mercury, Venus, Mars, Jupiter, Saturn, Uranus, Neptune, Pluto, and the Sun through three NASA archive images per location.
+Explore the Sun, Mercury, Venus, Mars, Jupiter, Saturn, Uranus, Neptune, and Pluto through one NASA archive image per location.
 
-## Format status
+## Map and playback
 
-Multi-photo format proposal: this example uses media.type "images" with an images array. It requires future CLI and player support; the current single-image format does not support it.
+The default map is `solarsystemmap.png`, with flag markers and location labels disabled because the artwork includes names. The tour opens at the Sun with the HUD visible; the map button switches between the HUD and map. Each destination uses the supported `media.type: "image"` format. There are nine destinations; Earth appears in the artwork but has no tour location.
 
-The proposed media object is `{"type":"images","images":[{"title":"…","url":"https://…"}]}`. This is sample data for the planned feature, not a validated format extension. All 27 images remain hosted at NASA; this folder contains no image or video files. There are nine locations; Earth is omitted. The Sun is included as a star, and Pluto as a requested tour destination.
+The map is AI-created artwork; sizes and distances are not to scale. NASA photographs remain hosted externally. The source list below retains the original image alternatives for future multi-photo support; playback currently uses the first image listed for each destination.
 
 ## Sources and credits
 
