@@ -86,6 +86,7 @@ uses its existing app UI.
 | `exit` | Ask whether to leave the map and return Home | `home` |
 | `list` | Change Location popup with other locations' full `title` values | `list` |
 | `shortlist` | Same popup, using `shortitle` where supplied and `title` otherwise | `list` |
+| `mapswitch` | Toggle the map window; hide/collapse restores HUD in exclusive mode | `globe` |
 | `loc location-key` | Go directly to that location | Location's `icon`, otherwise `play` |
 
 `loc` has exactly one ASCII space before its target key. The target must exist
@@ -143,3 +144,71 @@ The app and CLI check numbered fields, string types, command syntax, existing
 location targets, icon names, nonempty authored text, and identifier whitespace.
 Encoding keeps numbered HUD entries as flat fields; it does not create a `hud`
 object or array. All three published examples have been audited for this rule.
+
+
+## Map window and HUD visibility
+
+The Boolean keys `showhud`, `showmap`, and `hudormap` can be authored in
+`details.defaults` or a location. Resolve each independently from location,
+then defaults, then the built-in value below. File keys remain lowercase.
+
+| Key | Default | Meaning |
+| --- | --- | --- |
+| `showhud` | `true` | Show the configured HUD when independent mode is active. |
+| `showmap` | `false` | Show the map window expanded when entering the location. |
+| `hudormap` | `false` | Alternate between expanded map and HUD instead of displaying both. |
+
+With `hudormap: false`, `showhud` controls the HUD independently of map visibility.
+With `hudormap: true`, an expanded map hides the HUD; hiding or collapsing the
+map reveals the HUD. This exclusive-mode rule takes precedence over `showhud`.
+
+Add `mapswitch` as a numbered HUD value to toggle the map. In independent mode,
+a second tap hides the map again. In exclusive mode, use the map window's Hide
+or Collapse control to get the HUD back. Tapping Map while the window is collapsed
+expands it; the standard Restore control does the same.
+
+Oz's test configuration includes:
+
+```json
+"defaults": {
+  "showhud": true,
+  "showmap": false,
+  "hudormap": true,
+  "hud-1": "exit",
+  "hud-2": "shortlist",
+  "hud-3": "mapswitch"
+}
+```
+
+Existing panorama, environment, and exit-string defaults remain in the same
+object. Location overrides are reapplied whenever that location is entered.
+
+### Placeholder window
+
+Only one movable map window can exist at a time. For this stage it contains
+the text “Map” and an Exit button. Exit asks before leaving the tour and uses
+the location/default `exitstring`. Its lower bar supplies the standard move,
+Hide (Close/X), Collapse, and Restore controls. Hide affects this window only;
+it does not exit the tour. Collapse keeps the restore bar visible. Window
+placement is carried between locations during the tour and resets on Home.
+
+Map images, pin navigation, and selecting among authored `maps[]` entries are
+the next stage; the placeholder does not imply a working map-pin route.
+
+### CLI navigation checks
+
+`check` and the app loader resolve effective settings for every location.
+They reject configurations where hiding the map leaves all navigation hidden.
+In particular, `showhud: false` with `hudormap: false` is unsafe with this
+hideable window, even when it starts visible. Use exclusive mode for a map-only
+initial view with automatic HUD recovery.
+
+For tours containing multiple locations, each location needs an outgoing HUD
+route: `list`, `shortlist`, or `loc` pointing elsewhere. That HUD may be restored
+by hiding the map in exclusive mode. `exit`, `mapswitch`, and a shortcut to the
+current room do not supply an outgoing location route. Map pins are not counted
+until their presentation is implemented.
+
+Every room must also have a reachable exit, directly through `exit` or
+`mapswitch` (which reaches the window's Exit button), or by navigating to a room
+that provides one. Closed navigation cycles without an exit are rejected.

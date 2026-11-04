@@ -23,7 +23,11 @@
       },
       "hud-1": "exit",
       "hud-2": "shortlist",
-      "exitstring": "Do you wish to leave the World of Oz?"
+      "exitstring": "Do you wish to leave the World of Oz?",
+      "showhud": true,
+      "showmap": false,
+      "hudormap": true,
+      "hud-3": "mapswitch"
     }
   },
   "formatversion": 1,
