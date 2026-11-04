@@ -28,21 +28,188 @@
       "showmap": false,
       "hudormap": true,
       "hud-3": "mapswitch"
-    }
+    },
+    "initialmap": "classic"
   },
   "formatversion": 1,
   "maps": [
     {
       "image": "classicmap.png",
-      "pinstyle": "flag",
-      "pins": [],
-      "title": "Classic Map"
+      "pinstyle": "pin",
+      "pins": [
+        {
+          "location": "munchkin-country",
+          "x": 0.78,
+          "y": 0.19
+        },
+        {
+          "location": "scarecrow-cornfield",
+          "x": 0.84,
+          "y": 0.38
+        },
+        {
+          "location": "tin-woodman-forest",
+          "x": 0.94,
+          "y": 0.52
+        },
+        {
+          "location": "lion-forest",
+          "x": 0.87,
+          "y": 0.6
+        },
+        {
+          "location": "great-ravine",
+          "x": 0.32,
+          "y": 0.52
+        },
+        {
+          "location": "river-crossing",
+          "x": 0.68,
+          "y": 0.35
+        },
+        {
+          "location": "poppy-field",
+          "x": 0.77,
+          "y": 0.45
+        },
+        {
+          "location": "emerald-city-approach",
+          "x": 0.54,
+          "y": 0.4
+        },
+        {
+          "location": "emerald-city-gates",
+          "x": 0.5,
+          "y": 0.345
+        },
+        {
+          "location": "emerald-city-street",
+          "x": 0.46,
+          "y": 0.275
+        },
+        {
+          "location": "wizard-throne-room",
+          "x": 0.515,
+          "y": 0.205
+        },
+        {
+          "location": "witch-castle",
+          "x": 0.13,
+          "y": 0.2
+        },
+        {
+          "location": "fighting-trees",
+          "x": 0.46,
+          "y": 0.46
+        },
+        {
+          "location": "china-country",
+          "x": 0.49,
+          "y": 0.57
+        },
+        {
+          "location": "hammer-heads-hill",
+          "x": 0.51,
+          "y": 0.68
+        },
+        {
+          "location": "glinda-palace",
+          "x": 0.77,
+          "y": 0.71
+        }
+      ],
+      "title": "Classic Map",
+      "id": "classic",
+      "locationname": false
     },
     {
       "title": "Modern Map",
       "image": "modernmap.png",
-      "pinstyle": "flag",
-      "pins": []
+      "pinstyle": "pin",
+      "pins": [
+        {
+          "location": "munchkin-country",
+          "x": 0.87,
+          "y": 0.41
+        },
+        {
+          "location": "scarecrow-cornfield",
+          "x": 0.77,
+          "y": 0.38
+        },
+        {
+          "location": "tin-woodman-forest",
+          "x": 0.84,
+          "y": 0.49
+        },
+        {
+          "location": "lion-forest",
+          "x": 0.77,
+          "y": 0.56
+        },
+        {
+          "location": "great-ravine",
+          "x": 0.31,
+          "y": 0.545
+        },
+        {
+          "location": "river-crossing",
+          "x": 0.8,
+          "y": 0.32
+        },
+        {
+          "location": "poppy-field",
+          "x": 0.89,
+          "y": 0.56
+        },
+        {
+          "location": "emerald-city-approach",
+          "x": 0.56,
+          "y": 0.51
+        },
+        {
+          "location": "emerald-city-gates",
+          "x": 0.5,
+          "y": 0.495
+        },
+        {
+          "location": "emerald-city-street",
+          "x": 0.47,
+          "y": 0.43
+        },
+        {
+          "location": "wizard-throne-room",
+          "x": 0.51,
+          "y": 0.36
+        },
+        {
+          "location": "witch-castle",
+          "x": 0.13,
+          "y": 0.255
+        },
+        {
+          "location": "fighting-trees",
+          "x": 0.49,
+          "y": 0.555
+        },
+        {
+          "location": "china-country",
+          "x": 0.49,
+          "y": 0.605
+        },
+        {
+          "location": "hammer-heads-hill",
+          "x": 0.28,
+          "y": 0.73
+        },
+        {
+          "location": "glinda-palace",
+          "x": 0.5,
+          "y": 0.75
+        }
+      ],
+      "id": "modern",
+      "locationname": true
     }
   ],
   "locations": [

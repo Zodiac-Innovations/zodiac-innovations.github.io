@@ -84,7 +84,7 @@ uses its existing app UI.
 | HUD value | Behavior | Icon |
 | --- | --- | --- |
 | `exit` | Ask whether to leave the map and return Home | `home` |
-| `list` | Change Location popup with other locations' full `title` values | `list` |
+| `list` | Title-free location popup with other locations' full `title` values | `list` |
 | `shortlist` | Same popup, using `shortitle` where supplied and `title` otherwise | `list` |
 | `mapswitch` | Toggle the map window; hide/collapse restores HUD in exclusive mode | `globe` |
 | `loc location-key` | Go directly to that location | Location's `icon`, otherwise `play` |
@@ -183,32 +183,68 @@ Oz's test configuration includes:
 Existing panorama, environment, and exit-string defaults remain in the same
 object. Location overrides are reapplied whenever that location is entered.
 
-### Placeholder window
+## Maps, initial selection, and marker names
 
-Only one movable map window can exist at a time. For this stage it contains
-the text “Map” and an Exit button. Exit asks before leaving the tour and uses
-the location/default `exitstring`. Its lower bar supplies the standard move,
-Hide (Close/X), Collapse, and Restore controls. Hide affects this window only;
-it does not exit the tour. Collapse keeps the restore bar visible. Window
-placement is carried between locations during the tour and resets on Home.
+Each `maps[]` object supports these fields:
 
-Map images, pin navigation, and selecting among authored `maps[]` entries are
-the next stage; the placeholder does not imply a working map-pin route.
+| Key | Description |
+| --- | --- |
+| `id` | Optional stable lowercase map key; required when selecting it by `initialmap`. |
+| `title` | Required display title, also used as the movable window's title. |
+| `image` | Required relative path or public HTTP(S) image URL. |
+| `pinstyle` | Default marker appearance: `pin`, `dot`, or legacy `flag`. |
+| `pins` | Location markers with `location`, normalized `x`/`y`, optional `name` and `pinstyle`. |
+| `locationname` | Optional Boolean, default `false`; displays each marker's title when true. |
 
-### CLI navigation checks
+Pin coordinates run from 0 to 1, starting at the image's upper-left corner.
+Each pin targets an existing location. Its visible label uses `name` when supplied,
+otherwise that location's full `title`. Built-in location icons are inherited;
+otherwise a dot appears in the marker. `dot` selects a circle; `pin` and legacy
+`flag` use the current teardrop marker. Markers have 3D depth over the flat image.
+The marker for the current location is visible but disabled.
 
-`check` and the app loader resolve effective settings for every location.
-They reject configurations where hiding the map leaves all navigation hidden.
-In particular, `showhud: false` with `hudormap: false` is unsafe with this
-hideable window, even when it starts visible. Use exclusive mode for a map-only
-initial view with automatic HUD recovery.
+`details.initialmap` selects the first map by its `id`. When omitted, the first
+array entry is selected, including for older map entries without IDs. Map IDs,
+when supplied, must be unique and follow the normal single-token identifier rule.
+`initialmap` may also appear in defaults or locations. A local value overrides a
+default, and a default overrides the atlas-wide initial choice. Location/default
+overrides are applied on entry; otherwise the user's selected map is retained
+while moving between locations.
 
-For tours containing multiple locations, each location needs an outgoing HUD
-route: `list`, `shortlist`, or `loc` pointing elsewhere. That HUD may be restored
-by hiding the map in exclusive mode. `exit`, `mapswitch`, and a shortcut to the
-current room do not supply an outgoing location route. Map pins are not counted
-until their presentation is implemented.
+```json
+"details": { "initialmap": "classic" },
+"maps": [
+  {"id":"classic", "title":"Classic Map", "image":"classicmap.png", "locationname":false},
+  {"id":"modern", "title":"Modern Map", "image":"modernmap.png", "locationname":true}
+]
+```
 
-Every room must also have a reachable exit, directly through `exit` or
-`mapswitch` (which reaches the window's Exit button), or by navigating to a room
-that provides one. Closed navigation cycles without an exit are rejected.
+The example above shows only the map-related fields; normal required atlas and
+details fields still apply. Oz contains a pin for all 16 locations on each map.
+
+### Window controls
+
+Only one map window is shown. Its content is an `AetherMapArrangement` containing
+the selected image and tappable markers. It can be moved with the normal bar.
+
+- Left, first: Home icon asks to leave the tour, using `exitstring` with no dialog title.
+- Left, second: List icon opens other locations using full titles, with no popup title.
+- Right: Hide removes the window and restores the HUD in exclusive mode.
+- Right, before Collapse: Play cycles first-to-last-to-first, shown only with multiple maps.
+- Collapse/Restore changes the actual window state and updates HUD visibility accordingly.
+
+HUD list and shortlist popups also have no title. Shortlist keeps its existing
+`shortitle` fallback behavior; the map bar always uses full location names.
+
+Map image files share the tour's disk cache. Play prepares the new image before
+replacing the current map; failure keeps the existing image, title, and selection.
+Only the displayed map image is registered in memory. Home clears that image
+registration and removes the tour's descriptor/media/map cache directory.
+
+### Navigation validation
+
+`showmap: true` and authored `mapswitch` commands require at least one map.
+The map bar provides both full-list navigation and an exit, so `mapswitch` is a
+usable route to other locations and to Home. Checks still reject settings that
+can hide all navigation or leave no reachable exit after the map is hidden.
+Existing visibility inheritance and `hudormap` rules remain unchanged.
