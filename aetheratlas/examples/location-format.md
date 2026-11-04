@@ -228,7 +228,7 @@ Only one map window is shown. Its content is an `AetherMapArrangement` containin
 the selected image and tappable markers. It can be moved with the normal bar.
 
 - Left, first: Home icon asks to leave the tour, using `exitstring` with no dialog title.
-- Left, second: List icon opens other locations using full titles, with no popup title.
+- Left, second: List icon opens the selected map's marked destinations using full location titles, with no popup title. Duplicate destinations appear once; the current location is omitted. The button is disabled when no other destinations remain.
 - Right: Hide removes the window and restores the HUD in exclusive mode.
 - Right, before Collapse: Play cycles first-to-last-to-first, shown only with multiple maps.
 - Collapse/Restore changes the actual window state and updates HUD visibility accordingly.
@@ -244,7 +244,11 @@ registration and removes the tour's descriptor/media/map cache directory.
 ### Navigation validation
 
 `showmap: true` and authored `mapswitch` commands require at least one map.
-The map bar provides both full-list navigation and an exit, so `mapswitch` is a
-usable route to other locations and to Home. Checks still reject settings that
+The map bar provides navigation to the selected map's marked destinations and an exit.
+Cycling maps refreshes the popup's destinations; an open map popup is rebuilt, and
+obsolete menu actions are removed. HUD `list` and `shortlist` still cover all tour
+locations. Navigation checks count the union of marker destinations across the
+maps reachable through Play, so an empty map cannot invent a location route.
+`mapswitch` also provides a route to Home. Checks still reject settings that
 can hide all navigation or leave no reachable exit after the map is hidden.
 Existing visibility inheritance and `hudormap` rules remain unchanged.
